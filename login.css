@@ -1,0 +1,157 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Rubik', sans-serif;
+}
+
+body {
+    width: 100%;
+    background-color: #000000;
+} 
+
+section {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.login  {
+    border: 1px solid #008AFF;
+    border-radius: 10px;
+    width: 450px;
+    height: 400px;
+    padding: 50px;
+    color: #f2f2f2;
+}
+
+.login p {
+    font-size: 0.9em;
+    display: flex;
+    justify-content: center;
+}
+
+.login a {
+    text-decoration: none;
+    font-size: 0.9em;
+    color: #f2f2f2;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.logo img {
+    height: 30px;
+}
+
+.login form {
+    display: flex;
+    flex-direction: column;
+}
+
+form input {
+    margin-top: 10px;
+    width: 100%;
+    padding: 15px;
+    border: none;
+    border-radius: 5px;
+    background-color: #000000;
+    border: 1px solid #008AFF;
+    color: #f2f2f2;
+    font-size: 0.9em;
+    font-weight: 300;
+}
+
+form input:focus-visible {
+    outline: none;
+}
+
+form p {
+    margin-top: 15px;
+    margin-bottom: 20px;
+    font-size: 0.9em !important;
+    display: flex;
+    justify-content: end !important;
+}
+
+form button {
+    width: 100%;
+    padding: 15px;
+    border: none;
+    border-radius: 5px;
+    margin-bottom: 15px;
+    background: linear-gradient(100deg, #329fff 38.67%, rgb(48, 126, 221) 73.15%, rgb(47, 106, 201) 137.48%, rgb(44, 73, 169) 137.49%);
+    color: #f2f2f2;
+    font-size: 1em;
+    font-weight: 400;
+    cursor: pointer;
+}
+
+@media (max-width: 920px) {
+    section {
+        height: 100vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .login  {
+        border: 1px solid #008AFF;
+        border-radius: 10px;
+        width: 400px;
+        height: 450px;
+        padding: 50px;
+        color: #f2f2f2;
+    }
+    
+    .logo img {
+        height: 25px;
+    }
+    
+    .login form {
+        display: flex;
+        flex-direction: column;
+    }
+    
+    form input {
+        margin-top: 10px;
+        width: 100%;
+        padding: 15px;
+        border: none;
+        border-radius: 5px;
+        background-color: #000000;
+        border: 1px solid #008AFF;
+        color: #f2f2f2;
+        font-size: 0.9em;
+        font-weight: 300;
+    }
+    
+    form input:focus-visible {
+        outline: none;
+    }
+    
+    form p {
+        margin-top: 10px;
+        font-size: 0.9em !important;
+        display: flex;
+        justify-content: end !important;
+    }
+    
+    form button {
+        width: 100%;
+        padding: 15px;
+        border: none;
+        border-radius: 5px;
+        margin-bottom: 15px;
+        background: linear-gradient(100deg, #329fff 38.67%, rgb(48, 126, 221) 73.15%, rgb(47, 106, 201) 137.48%, rgb(44, 73, 169) 137.49%);
+        color: #f2f2f2;
+        font-size: 1em;
+        font-weight: 400;
+        cursor: pointer;
+    }
+}

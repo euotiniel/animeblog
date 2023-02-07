@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AnimeBlog - Ler mais</title>
+
+    <!--Google Fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&family=Roboto+Mono:wght@700&family=Roboto:ital,wght@0,100;0,300;0,900;1,100;1,300;1,500;1,700;1,900&family=Rubik:ital,wght@0,300;0,400;1,300;1,400&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="./index.css">
+</head>
+<body>
+    <!-- Barra de navegação -->
+    <header>
+        <nav>
+            <div >
+                <img src="./img/logo-anime-blog.svg" class="logo" alt="Logotipo AnimeBlog">
+            </div>
+            <div class="menu-btn">
+                <img src="./img/menu.svg" alt="Menu humburger" onclick="menuShow()">
+            </div>
+            <ul>
+                <li><a href="#">Pagina principal</a></li>
+                <li><a href="#">Populares</a></li>
+                <li><a href="#">Filmes</a></li>
+                <li><a href="#">Postar</a></li><br>
+            <!-- div style="display: none;">
+                <input type="text" class="search" placeholder="Pesquisar...">
+            </div -->
+            </ul> 
+        </nav>
+    </header>
+
+    <!-- Posts em destaque -->
+    <main>
+        <section>
+            <div class="container-hero-lermais">
+                <div class="principal1-lermais">
+                    <article>
+                        <h2>Juutsu Kaisen 0: a origem dos poderes de Yuuta Okkotsu</h2>
+                        <div class="autor">
+                            <p>04 de Fevereio de 2023</p>
+                            <span><a href="">Partilhar</a></span>
+                        </div>
+                        <div class="sombra-lermais"></div>
+                        <img src="https://th.bing.com/th/id/R.0e995a6b5ba134521ddd01aea255367f?rik=fdgyXW04R1u%2bXw&pid=ImgRaw&r=0" alt="">
+                    </article>
+                </div>
+                
+            </div>
+        </section>
+        <div class="texto-lermais">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem mollitia ab tempore laudantium sed quidem delectus esse at in voluptatem quos dolor doloremque, laborum aliquid tempora quia quae eveniet et.
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Laborum expedita esse architecto minima, velit magni odit nesciunt eum, aliquid aliquam numquam ut illum maiores nihil quam eius qui perspiciatis facilis.
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Explicabo, corporis. Corrupti iusto modi commodi rem odit quasi, obcaecati aut mollitia repellendus excepturi voluptates cum totam provident ullam, fugiat deleniti recusandae. <br><br>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque cum esse temporibus, iure voluptas perferendis, qui quae, enim dignissimos velit delectus quidem ut labore explicabo placeat quas? Nostrum, deserunt consequatur.
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsam placeat, nisi dignissimos distinctio, cumque ex tempore est porro labore animi aspernatur architecto eaque soluta vitae. Esse ipsum odio cumque! Accusantium.
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni doloribus delectus veniam quae, iste reprehenderit natus explicabo unde officiis amet, similique neque voluptas suscipit totam maxime aliquid voluptatibus! Enim, architecto?
+                <br><br>
+                Escrito por: Artigo Semanal
+            </p>
+        </div>
+
+        
+        <section>
+            <h2 class="title-assistir">Assistir agora mesmo!</h2>
+            <div class="container-hero-assistir">
+                <div class="assistir1">
+                    <article>
+                        <div class="sombra-assistir"></div>
+                        <img src="https://wallpapercave.com/wp/wp11515073.jpg" alt="">
+                        <div class="descricao">
+                            <div class="descricao-botao">
+                                <a href="" class="descricao-link">Assistir agora</a>
+                            </div>
+                            <div class="descricao-titulo">
+                                <a href="">
+                                    <h3>Filme: Jujutsu Kaisen 0, conta a hitsória de Yuuta Okkotsu um jovem assombrado desde...</h3>
+                                </a>
+                            </div>
+                        </div>
+                    </article>
+                </div>
+                <div class="assistir2">
+                    <article>
+                        <div class="sombra-assistir"></div>
+                        <img src="https://wallpapercave.com/wp/wp11515085.jpg" alt="">
+                        <div class="descricao">
+                            <div class="descricao-botao">
+                                <a href="" class="descricao-link">Assistir agora</a>
+                            </div>
+                            <div class="descricao-titulo">
+                                <a href="">
+                                    <h3>Filme: Jujutsu Kaisen 0, conta a hitsória de Yuuta Okkotsu um jovem assombrado desde...</h3>
+                                </a>
+                            </div>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <section>
+            <div class="container-newslater">
+               <h2 class="title-newslater">Inscreva-se</h2>
+               <div class="newslater">
+                    <p>Inscreva-se para receber todas as novidades do AnimeBlog</p>
+                    <form action="">
+                        <div class="input">
+                            <input type="text" placeholder="Digite o seu e-mail">
+                        </div>
+                        <div class="botao">
+                            <button type="submit" class="descricao-link">Enviar</button>
+                        </div>
+                    </form>
+               </div>
+            </div>
+        </section>
+
+        </main>
+
+    <footer>
+        <div>
+            <p>Copy &copy;<a href="https://www.linkedin.com/in/otoniel-emanuel-b80727261/"> Otoniel Emanuel</a> | 2023</p>
+        </div>
+    </footer>
+
+    <script>
+        var ul = document.querySelector('nav ul');
+        var menuBtn = document.querySelector('.menu btn img')
+
+        function menuShow() {
+            if (ul.classList.contains('open')){
+                ul.classList.remove('open');
+            }else{
+                ul.classList.add('open');
+            }
+        }
+    </script>
+</body>
+</html>

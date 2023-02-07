@@ -1,0 +1,346 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AnimeBlog</title>
+
+    <!--Google Fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&family=Roboto+Mono:wght@700&family=Roboto:ital,wght@0,100;0,300;0,900;1,100;1,300;1,500;1,700;1,900&family=Rubik:ital,wght@0,300;0,400;1,300;1,400&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="./index.css">
+</head>
+<body>
+    <!-- Barra de navegação -->
+    <header>
+        <nav>
+            <div >
+                <img src="./img/logo-anime-blog.svg" class="logo" alt="Logotipo AnimeBlog">
+            </div>
+            <div class="menu-btn">
+                <img src="./img/menu.svg" alt="Menu humburger" onclick="menuShow()">
+            </div>
+            <ul>
+                <li><a href="#" class="active">Pagina principal</a></li>
+                <li><a href="#populares">Populares</a></li>
+                <li><a href="#">Filmes</a></li>
+                <li><a href="#">Postar</a></li><br>
+            <!-- div style="display: none;">
+                <input type="text" class="search" placeholder="Pesquisar...">
+            </div -->
+            </ul> 
+        </nav>
+    </header>
+
+    <!-- Posts em destaque -->
+    <main>
+        <section>
+            <div class="container-hero">
+                <div class="principal1">
+                    <article>
+                        <div class="sombra"></div>
+                        <img src="./img/When Is Attack on Titan Season 4 Coming Out_.png" alt="">
+                        <div class="descricao">
+                            <div class="descricao-botao">
+                                <a href="" class="descricao-link">Em destaque</a>
+                            </div>
+                            <div class="descricao-titulo">
+                                <a href="">
+                                    <h3>A emissora de televisão japonesa anuncia o lançamento de Shingeki no Kyojin</h3>
+                                </a>
+                            </div>
+                        </div>
+                    </article>
+                </div>
+                <div class="principal2">
+                    <article>
+                        <div class="sombra"></div>
+                        <img src="https://wallpapercave.com/wp/wp10544233.png" alt="">
+                        <div class="descricao">
+                            <div class="descricao-botao">
+                                <a href="" class="descricao-link">Popular</a>
+                            </div>
+                            <div class="descricao-titulo">
+                                <a href="">
+                                    <h3>Estreia a terceira e última parte do anime Shingeki no Kyojin: The Final Season, em março 2023</h3>
+                                </a>
+                            </div>
+                        </div>
+                    </article>
+                </div>
+                <div class="principal3">
+                    <article>
+                        <div class="sombra"></div>
+                        <img src="https://wallpapercave.com/wp/wp11854284.png" alt="">
+                        <div class="descricao">
+                            <div class="descricao-botao">
+                                <a href="" class="descricao-link">Popular</a>
+                            </div>
+                            <div class="descricao-titulo">
+                                <a href="">
+                                    <h3>Blue Lock, o mangá lançado em 2022 supera 19 milhões de cópias em circulação</h3>
+                                </a>
+                            </div>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <section>
+            <div class="container">
+                <h2 class="title">Notícias recentes</h2>
+                    <div class="recentes">
+                        <div class="recentes-conteudo1">
+                            <div class="recentes-img">
+                                <img src="https://wallpapercave.com/uwp/uwp2027169.png" alt="">
+                            </div>
+                            <div class="recentes-title">
+                                <a href="#"><h3>Parece que Boruto vai vir com tudo na nova fase do anime</h3> </a>
+                                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Officia, nam quis rerum ab sint nostrum architecto temporibus sit nisi...</p>
+                                <a href="" class="">
+                                    <span>Ver tudo > </span>
+                                </a>
+                            </div>
+                        </div>
+
+                        <div class="recentes-conteudo2">
+                            <div class="recentes-img">
+                                <img src="https://wallpapercave.com/uwp/uwp1157814.jpeg" alt="">
+                            </div>
+                            <div class="recentes-title">
+                                <a href="#"><h3>3ª temporada de Kimetsu no Yaiba em Abril de 2023</h3> </a>
+                                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Officia, nam quis rerum ab sint nostrum architecto temporibus sit nisi...</p>
+                                <a href="" class="">
+                                    <span>Ver tudo > </span>
+                                </a>
+                            </div>
+                        </div>
+
+                        <div class="recentes-conteudo3">
+                            <div class="recentes-img">
+                                <img src="https://wallpapercave.com/wp/wp10445966.jpg" alt="">
+                            </div>
+                            <div class="recentes-title">
+                                <a href="#"><h3>Juutsu Kaisen 0: a verdadeira origem dos poderes da Maldição...</h3> </a>
+                                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Officia, nam quis rerum ab sint nostrum architecto temporibus sit nisi...</p>
+                                <a href="" class="">
+                                    <span>Ver tudo > </span>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="recentes">
+                        <div class="recentes-conteudo1">
+                            <div class="recentes-img">
+                                <img src="https://th.bing.com/th/id/R.7c08a10021d5a0e1afacec0fbee91c6d?rik=OxLWTktvAXVdAg&pid=ImgRaw&r=0" alt="">
+                            </div>
+                            <div class="recentes-title">
+                                <a href="#"><h3>A sexta temporada continua a todo vapor em janeiro de 2023</h3> </a>
+                                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Officia, nam quis rerum ab sint nostrum architecto temporibus sit nisi...</p>
+                                <a href="" class="">
+                                    <span>Ver tudo > </span>
+                                </a>
+                            </div>
+                        </div>
+
+                        <div class="recentes-conteudo2">
+                            <div class="recentes-img">
+                                <img src="https://wallpapercave.com/uwp/uwp2028873.jpeg" alt="">
+                            </div>
+                            <div class="recentes-title">
+                                <a href="#"><h3>Descubra as personagens da 7ª temporada de Hunter X Hunter</h3> </a>
+                                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Officia, nam quis rerum ab sint nostrum architecto temporibus sit nisi...</p>
+                                <a href="" class="">
+                                    <span>Ver tudo > </span>
+                                </a>
+                            </div>
+                        </div>
+
+                        <div class="recentes-conteudo3">
+                            <div class="recentes-img">
+                                <img src="https://wallpapercave.com/uwp/uwp2279327.png" alt="">
+                            </div>
+                            <div class="recentes-title">
+                                <a href="#"><h3>10 curiosidades sobre Monkey D. Luffy</h3> </a>
+                                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Officia, nam quis rerum ab sint nostrum architecto temporibus sit nisi...</p>
+                                <a href="" class="">
+                                    <span>Ver tudo > </span>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+            </div>
+        </section>
+
+
+        <section id="populares">
+            <div class="container">
+                <h2 class="title">Mais populares</h2>
+                    <div class="recentes">
+                        <div class="recentes-conteudo1">
+                            <div class="recentes-img">
+                                <img src="https://wallpapercave.com/wp/wp11901383.jpg" alt="">
+                            </div>
+                            <div class="recentes-title">
+                                <a href="#"><h3>Rumores: Dragon Ball Super retornará em 2023</h3> </a>
+                                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Officia, nam quis rerum ab sint nostrum architecto temporibus sit nisi...</p>
+                                <a href="" class="">
+                                    <span>Ver tudo > </span>
+                                </a>
+                            </div>
+                        </div>
+
+                        <div class="recentes-conteudo2">
+                            <div class="recentes-img">
+                                <img src="https://th.bing.com/th/id/R.d9b42bba3bc5a98507a82108b63e5ed8?rik=IwbfLTZ0QHvC%2bg&pid=ImgRaw&r=0" alt="">
+                            </div>
+                            <div class="recentes-title">
+                                <a href="#"><h3>Revelado o por que de Sukuna ter tanto interesse no Megumi</h3> </a>
+                                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Officia, nam quis rerum ab sint nostrum architecto temporibus sit nisi...</p>
+                                <a href="" class="">
+                                    <!--https://criticalhits.com.br/anime/jujutsu-kaisen-finalmente-revela-por-que-sukuna-tinha-tanto-interesse-no-megumi/-->
+                                    <span>Ver tudo > </span>
+                                </a>
+                            </div>
+                        </div>
+
+                        <div class="recentes-conteudo3">
+                            <div class="recentes-img">
+                                <img src="https://th.bing.com/th/id/R.ce3edff61e0a2374d853d9abf1d85831?rik=MIIYB3YRPLbdvw&riu=http%3a%2f%2fp4.itc.cn%2fimages01%2f20200602%2f498af5a0829a49e7be13dd759d3ced68.jpeg&ehk=8%2fJbNb9KCEFLY8dzgxosga%2frsCfRN8SRdA%2fVOeOPPII%3d&risl=&pid=ImgRaw&r=0" alt="">
+                            </div>
+                            <div class="recentes-title">
+                                <a href="#"><h3>Os 10 melhores animes produzidos pelo estúdio MAPPA</h3> </a>
+                                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Officia, nam quis rerum ab sint nostrum architecto temporibus sit nisi...</p>
+                                <a href="" class="">
+                                    <span>Ver tudo > </span>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+            </div>
+        </section>
+
+        <section>
+            <div class="container-sugestao">
+                <h2 class="title">Sugestões da semana</h2>
+                <div class="sugestao">
+                    <div class="sugestao-conteudo1">
+                        <div class="sugestao-img">
+                            <img src="https://wallpapercave.com/wp/wp9668911.jpg" alt="">
+                        </div>
+                        <div class="sugestao-title">
+                            <a href="#"><h3>Record of Ragnarok</h3> </a>
+                            <a href="" class="">
+                                <span>Ler Sinopse ></span>
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="sugestao-conteudo2">
+                        <div class="sugestao-img">
+                            <img src="https://www.justwatch.com/images/backdrop/301084031/s1440/bluelock" alt="">
+                        </div>
+                        <div class="sugestao-title">
+                            <a href="#"><h3>Blue Lock</h3> </a>
+                            <a href="" class="">
+                                <span>Ler Sinopse ></span>
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="sugestao-conteudo3">
+                        <div class="sugestao-img">
+                            <img src="https://wallpapercave.com/wp/wp9038321.jpg" alt="">
+                        </div>
+                        <div class="sugestao-title">
+                            <a href="#"><h3>Death Note</h3> </a>
+                            <a href="" class="">
+                                <span>Ler Sinopse ></span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section>
+            <h2 class="title-assistir">Assistir agora mesmo!</h2>
+            <div class="container-hero-assistir">
+                <div class="assistir1">
+                    <article>
+                        <div class="sombra-assistir"></div>
+                        <img src="https://wallpapercave.com/wp/wp11515073.jpg" alt="">
+                        <div class="descricao">
+                            <div class="descricao-botao">
+                                <a href="" class="descricao-link">Assistir agora</a>
+                            </div>
+                            <div class="descricao-titulo">
+                                <a href="">
+                                    <h3>Filme: Jujutsu Kaisen 0, conta a hitsória de Yuuta Okkotsu um jovem assombrado desde...</h3>
+                                </a>
+                            </div>
+                        </div>
+                    </article>
+                </div>
+                <div class="assistir2">
+                    <article>
+                        <div class="sombra-assistir"></div>
+                        <img src="https://wallpapercave.com/wp/wp11515085.jpg" alt="">
+                        <div class="descricao">
+                            <div class="descricao-botao">
+                                <a href="" class="descricao-link">Assistir agora</a>
+                            </div>
+                            <div class="descricao-titulo">
+                                <a href="">
+                                    <h3>Filme: Jujutsu Kaisen 0, conta a hitsória de Yuuta Okkotsu um jovem assombrado desde...</h3>
+                                </a>
+                            </div>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <section>
+            <div class="container-newslater">
+               <h2 class="title-newslater">Inscreva-se</h2>
+               <div class="newslater">
+                    <p>Inscreva-se para receber todas as novidades do AnimeBlog</p>
+                    <form action="">
+                        <div class="input">
+                            <input type="text" placeholder="Digite o seu e-mail">
+                        </div>
+                        <div class="botao">
+                            <button type="submit" class="descricao-link">Enviar</button>
+                        </div>
+                    </form>
+               </div>
+            </div>
+        </section>
+
+    </main>
+
+    <footer>
+        <div>
+            <p>Copy &copy;<a href="https://www.linkedin.com/in/otoniel-emanuel-b80727261/" target="_blank"> Otoniel Emanuel</a> | 2023</p>
+        </div>
+    </footer>
+
+    <script>
+        var ul = document.querySelector('nav ul');
+        var menuBtn = document.querySelector('.menu btn img')
+
+        function menuShow() {
+            if (ul.classList.contains('open')){
+                ul.classList.remove('open');
+            }else{
+                ul.classList.add('open');
+            }
+        }
+    </script>
+</body>
+</html>
