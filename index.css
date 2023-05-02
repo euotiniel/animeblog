@@ -51,7 +51,6 @@ nav .logo {
     height: 34px;
     margin-top: 15px;
     cursor: pointer;
-    user-select: none;
 }
 
 nav ul {
@@ -1081,6 +1080,18 @@ color: #008AFF;
 }
 
 
+.submitButton {
+    color: #f2f2f2;
+    font-weight: 500;
+    border: none;
+    transition: .5s;
+    background: linear-gradient(100deg, #329fff 38.67%, rgb(48, 126, 221) 73.15%, rgb(47, 106, 201) 137.48%, rgb(44, 73, 169) 137.49%);
+
+}
+.submitButton:hover {
+    transform: scale(1.1);
+    background: linear-gradient(100deg, #329fff 38.67%,  rgb(44, 73, 169) 137.49%, rgb(47, 106, 201) 137.48%,  rgb(48, 126, 221) 73.15%);
+}
 
 /*Footer*/
 
